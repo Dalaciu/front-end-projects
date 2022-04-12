@@ -1,54 +1,19 @@
-@media only screen and (max-width: 1000px) {
-  .notes-pannel {
-    flex-direction: column;
-  }
-  div.note-block {
-    width: 90%;
-  }
-}
-
-.child-wrapper {
-  width: 70vw;
-}
-
-.form-floating {
-  width: 100%;
-}
-
-.note-block {
-  width: 30vw;
-}
-
-div#modal {
-  width: 70vw;
-  min-height: 20vh;
-}
-
-div.modal-box {
-  position: fixed;
-  width: 100%;
+div.wrapper {
   height: 100vh;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s;
 }
 
-div.modal-box-active {
-  visibility: visible;
-  opacity: 1;
+/* div.name-field {
+  width: 60vw;
+} */
+
+.flex-table {
+  width: 90%;
 }
 
-#modal {
-  background-color: #fff;
+.remove-butt {
+  font-size: .700rem;
 }
 
-.notes-pannel {
-  width: 100%;
-}
-
-h3 {
-  color: #198754;
+.date-field, .amount-field {
+  width: 49%;
 }
