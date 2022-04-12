@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+  #textfield, #add-item, #clear-all{
+    width: 100%;
+    margin: .3em;
+  }
+}
+
+main {
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.parent-div {
+  height: 100vh;
+}
+
+.child-div {
+  width: 70vw;
+}
+
+/* hide scrollbar but allow scrolling */
+#ordered-items {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+#ordered-items::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+#ordered-items {
+  max-height: 53vh;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
