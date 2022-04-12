@@ -1,0 +1,11 @@
+.body-wrapper {
+  height: 60vh;
+}
+
+.form-floating {
+  width: 60vw;
+}
+
+#floatingTextarea {
+  height: 10vh;
+}
